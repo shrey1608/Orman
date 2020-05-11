@@ -133,12 +133,12 @@ MEDIA_ROOT= os.path.join(BASE_DIR,'static/images')
 
 #SMPT Configuration
 EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL = '18dit037@charusat.edu.in'
-SERVER_EMAIL = '18dit037@charusat.edu.in'
+DEFAULT_FROM_EMAIL = 'your-email'
+SERVER_EMAIL = 'Your-email'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = '18dit037@charusat.edu.in'
-EMAIL_HOST_PASSWORD = 'fortran7'
+EMAIL_HOST_USER = 'Your-email'
+EMAIL_HOST_PASSWORD = 'your-password'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
 
